@@ -1,0 +1,14 @@
+{
+  "name": "configurable-council",
+  "owner": {
+    "name": "Robin Cannon",
+    "url": "https://github.com/shinytoyrobots"
+  },
+  "plugins": [
+    {
+      "name": "council",
+      "source": ".",
+      "description": "A configurable LLM Council — convene AI advisors, peer-review anonymously, synthesize a verdict."
+    }
+  ]
+}

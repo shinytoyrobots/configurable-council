@@ -1,0 +1,6 @@
+# macOS
+.DS_Store
+
+# Council session artifacts (generated in the working directory at runtime)
+council-report-*.html
+council-transcript-*.md

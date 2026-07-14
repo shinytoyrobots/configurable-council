@@ -1,0 +1,21 @@
+{
+  "name": "council",
+  "displayName": "Configurable Council",
+  "version": "0.1.0",
+  "description": "Run any question, idea, or decision through a configurable council of AI advisors who independently analyze it, peer-review each other anonymously, and synthesize a final verdict. Based on Karpathy's LLM Council methodology.",
+  "author": {
+    "name": "Robin Cannon",
+    "url": "https://github.com/shinytoyrobots"
+  },
+  "homepage": "https://github.com/shinytoyrobots/configurable-council",
+  "repository": "https://github.com/shinytoyrobots/configurable-council",
+  "license": "MIT",
+  "keywords": [
+    "council",
+    "llm-council",
+    "decision-making",
+    "advisors",
+    "peer-review",
+    "synthesis"
+  ]
+}
