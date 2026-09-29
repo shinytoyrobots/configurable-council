@@ -5,7 +5,7 @@ license: MIT
 compatibility: Companion to the council skill; expects it installed alongside (../council/). Needs file read/write.
 metadata:
   author: Robin Cannon
-  version: "0.2.1"
+  version: "0.2.2"
 ---
 
 # Council Setup
