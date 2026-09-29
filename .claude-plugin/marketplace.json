@@ -8,7 +8,22 @@
     {
       "name": "council",
       "source": ".",
-      "description": "A configurable LLM Council — convene AI advisors, peer-review anonymously, synthesize a verdict."
+      "description": "A configurable LLM Council \u2014 convene AI advisors, peer-review anonymously, synthesize a verdict.",
+      "version": "0.2.0",
+      "category": "productivity",
+      "author": {
+        "name": "Robin Cannon",
+        "url": "https://github.com/shinytoyrobots"
+      },
+      "homepage": "https://github.com/shinytoyrobots/configurable-council",
+      "license": "MIT",
+      "keywords": [
+        "council",
+        "llm-council",
+        "decision-making",
+        "peer-review"
+      ]
     }
-  ]
+  ],
+  "description": "Configurable Council: run decisions past a council of AI advisors that review each other anonymously and deliver a chairman's verdict."
 }
