@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.2.1 — 2026-09-29
+
+### Added
+- Plugin icon at `assets/icon.png`, set as `icon` in `plugin.json`. Claude Code and Grok Build both read it from there; the marketplace entry has no icon field.
+
+### Changed
+- One plugin description, the same in `plugin.json`, the marketplace entry and the Grok submission entry, saying what the council does for you.
+
 ## 0.2.0 — 2026-09-29
 
 ### Changed

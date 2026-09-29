@@ -1,3 +1,5 @@
+<img src="assets/icon.png" alt="" width="128" align="right">
+
 # Configurable Council
 
 An [Agent Skills](https://agentskills.io) package (and [Claude Code](https://claude.com/claude-code) / [Grok Build](https://docs.x.ai/build/features/skills-plugins-marketplaces) plugin) that runs any question, idea, or decision through a **configurable council of AI advisors**. The advisors independently analyze the question, peer-review each other's answers *anonymously*, and a chairman synthesizes a single, decisive verdict.

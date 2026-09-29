@@ -8,8 +8,8 @@
     {
       "name": "council",
       "source": ".",
-      "description": "A configurable LLM Council \u2014 convene AI advisors, peer-review anonymously, synthesize a verdict.",
-      "version": "0.2.0",
+      "description": "Pressure-tests a question or decision with a council of AI advisors who each take a distinct view, critique one another's answers anonymously, and hand you one clear verdict and a first step.",
+      "version": "0.2.1",
       "category": "productivity",
       "author": {
         "name": "Robin Cannon",
