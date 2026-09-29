@@ -5,7 +5,7 @@ license: MIT
 compatibility: Designed for agents that can spawn parallel sub-agents (Claude Code, Grok Build). Needs file read/write for configuration, reports, and transcripts.
 metadata:
   author: Robin Cannon
-  version: "0.2.0"
+  version: "0.2.1"
 ---
 
 # Council

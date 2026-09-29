@@ -18,7 +18,7 @@ Note: `anthropics/skills` is a reference and examples repo, not a submission que
    ```json
    {
      "name": "council",
-     "description": "Run any decision through a configurable council of AI advisors who analyze independently, peer-review anonymously, and synthesize a chairman's verdict.",
+     "description": "Pressure-tests a question or decision with a council of AI advisors who each take a distinct view, critique one another's answers anonymously, and hand you one clear verdict and a first step.",
      "category": "productivity",
      "source": {
        "source": "url",
@@ -27,7 +27,7 @@ Note: `anthropics/skills` is a reference and examples repo, not a submission que
      },
      "homepage": "https://github.com/shinytoyrobots/configurable-council",
      "keywords": ["council", "llm-council", "decision-making", "peer-review"],
-     "version": "0.2.0",
+     "version": "0.2.1",
      "author": { "name": "Robin Cannon" }
    }
    ```
