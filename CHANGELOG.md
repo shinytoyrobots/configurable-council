@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.2.2 — 2026-09-29
+
+### Changed
+- The plugin description leads with what makes the council configurable: a bundled preset or a lineup you design.
+
 ## 0.2.1 — 2026-09-29
 
 ### Added
