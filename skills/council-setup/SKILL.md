@@ -30,14 +30,15 @@ Choose the mode from the user's request or arguments.
 1. List `*.md` in both preset directories.
 2. For each preset, read the `# Council Configuration: …` heading and the description line under it.
 3. Read `active.md`. If it is absent, the active council is `default`.
-4. Display:
+4. Display one row per effective preset (after shadowing), marking user presets and customized bundled ones. For example:
 
 ```
 Active council: {name} ({slug})
 
 Available presets:
   default     — 5 advisors, general-purpose thinking styles
-  elrond      — 11 advisors, Council of Elrond (Tolkien)
+  elrond      — 11 advisors, Council of Elrond (Tolkien)   [customized]
+  pirates     — 6 advisors, Pirate Crew                    [user]
 ```
 
 ### `show`
@@ -54,7 +55,7 @@ Build a council interactively.
 4. **Chairman:** either an advisor elevated to chairman (they advise and synthesize) or a separate figure who only synthesizes. Collect a name, a description if separate, and a 1-2 sentence synthesis voice.
 5. **Tensions:** propose 2-4 natural pairs (e.g. "X vs Y — optimism vs skepticism") and let the user confirm or adjust.
 6. **Theming (optional):** report title (defaults to the council name), session verb (defaults to "convened"), and report aesthetic (defaults to clean and professional).
-7. **Write** the council to `presets/{slug}.md` in user state (`{slug}` is the kebab-case name), following [references/config-format.md](references/config-format.md). Then write `active.md` containing `active-preset: {slug}`.
+7. **Write** the council to `presets/{slug}.md` in user state (`{slug}` is the kebab-case name), following [references/config-format.md](references/config-format.md). If that file already exists, ask whether to overwrite it or pick a different name before writing. Then write `active.md` containing `active-preset: {slug}`.
 8. **Confirm** with a summary and state that the council is active.
 
 ### `{preset-name}` (e.g. `elrond`, `default`)

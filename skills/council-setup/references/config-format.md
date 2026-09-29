@@ -23,7 +23,7 @@ Every council, bundled or user-created, is one markdown file with this structure
 
 ## Advisors
 
-### {Advisor Name} — {Title}
+### {Advisor Name} — {Title}   (the " — {Title}" suffix is optional)
 
 {1-2 sentence description.}
 

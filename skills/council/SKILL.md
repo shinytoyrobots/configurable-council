@@ -105,7 +105,7 @@ Keep your review under 250 words. Be direct.
 
 ## Step 4: Chairman synthesis
 
-One agent receives the framed question, all advisor responses (de-anonymized), and all peer reviews. The chairman may disagree with the majority if the reasoning supports it, and uses the council's Tensions to find productive disagreement.
+One agent receives the framed question, all advisor responses (de-anonymized), all peer reviews, and the anonymization map, so the chairman can match letter-based feedback to each advisor. The chairman may disagree with the majority if the reasoning supports it, and uses the council's Tensions to find productive disagreement.
 
 ```
 You are {chairman.name}, presiding over the {council.name}.
@@ -125,8 +125,11 @@ COUNSEL OF THE COUNCIL:
 **{advisor.name} ({advisor.title}):**
 {response}
 
-PEER REVIEWS:
+PEER REVIEWS (these refer to responses by letter):
 {all peer reviews}
+
+ANONYMIZATION MAP:
+{Response A → advisor.name, Response B → advisor.name, …}
 
 TENSIONS TO EXAMINE:
 {tensions, or "none listed"}
